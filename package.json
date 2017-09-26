@@ -1,0 +1,20 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TJ",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base build"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "webpack": "^3.6.0"
+  }
+}
