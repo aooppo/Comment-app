@@ -2,22 +2,22 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #fbfbfb;
+  background-color: #FAFAFA;
 }
 
 .wrapper {
-  width: 500px;
+  width: 800px;
   margin: 10px auto;
   font-size: 14px;
   background-color: #fff;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #FFA07A;
   padding: 20px;
 }
 
 /* 评论框样式 */
 .comment-input {
   background-color: #fff;
-  border: 1px solid #f1f1f1;
+  border: 1px solid #DEB887;
   padding: 20px;
   margin-bottom: 10px;
 }
@@ -63,7 +63,7 @@ body {
   width: 80px;
   border: none;
   border-radius: 3px;
-  background-color: #00a3cf;
+  background-color: #9B30FF;
   color: #fff;
   outline: none;
   cursor: pointer;
