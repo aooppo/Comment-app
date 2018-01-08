@@ -8,14 +8,6 @@ module.exports = {
 		filename: 'bundle.js',
 	},
 	module: {
-        //loaders加载器
-        // rules: [
-        //      test: /\.css$/,
-        //       use: ExtractTextPlugin.extract({
-        //           fallback: "style-loader", 
-        //            use: [ "css-loader" ]
-        //         })
-        // ],
         loaders: [
             {
                 test: /\.(js|jsx)$/,//一个匹配loaders所处理的文件的拓展名的正则表达式，这里用来匹配js和jsx文件（必须）

@@ -80,7 +80,7 @@ class CommentInput extends Component {
 }
 
 CommentInput.propTypes = {
-        username: PropTypes.any,
+        username: PropTypes.string,
         onSubmit: PropTypes.func,
         onUserNameInputBlur: PropTypes.func
 }
